@@ -1,0 +1,24 @@
+.container {
+  flex: 2;
+}
+
+.info {
+  height: 70px;
+  background-color: #5d5b8d;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  color: #d9d9d9;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+}

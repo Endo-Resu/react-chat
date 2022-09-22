@@ -1,0 +1,11 @@
+.container {
+  padding: 10px;
+  background-color: #ddddf7;
+  height: calc(100% - 140px);
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar {
+    width: 0;
+    max-width: 0;
+  }
+}

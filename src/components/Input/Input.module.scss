@@ -1,0 +1,50 @@
+.container {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.file {
+  display: none;
+}
+
+.input {
+  width: 100%;
+  height: 70px;
+  font-size: 18px;
+  color: #2f2d52;
+  padding: 0 10px;
+
+  &::placeholder {
+    color: #d9d9d9;
+  }
+}
+
+.send {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.label {
+  cursor: pointer;
+
+  & > .image {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.button {
+  padding: 10px 15px;
+  color: #ffffff;
+  background-color: #a7bcff;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #5d5b8d;
+  }
+}

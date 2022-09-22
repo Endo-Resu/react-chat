@@ -1,10 +1,11 @@
 import React from 'react';
-import RegisterPage from "./pages/Register/RegisterPage";
+import s from './App.module.scss'
+import HomePage from "./pages/Home/HomePage";
 
 function App() {
   return (
-    <div className="App">
-      <RegisterPage />
+    <div className={s.app}>
+      <HomePage />
     </div>
   );
 }

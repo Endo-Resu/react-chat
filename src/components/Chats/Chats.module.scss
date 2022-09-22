@@ -1,0 +1,31 @@
+.chat {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: #2f2d52;
+  }
+}
+
+.image {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.preview {
+  font-weight: 400;
+  color: #d9d9d9;
+}
